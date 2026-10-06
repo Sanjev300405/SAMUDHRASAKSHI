@@ -1,0 +1,41 @@
+# ARCHITECTURE.md §5 M8. Weights sum to 1.00; D carries the most weight
+# because it is the only factor that tests physical plausibility rather than
+# correlation. Every value here is loaded at runtime by backend/core/m8_fusion.py
+# and is overridable by CLI flag -- nothing in that module hardcodes these numbers.
+weights:
+  spatial: 0.20
+  temporal: 0.15
+  trajectory: 0.15
+  drift: 0.35
+  behaviour: 0.15
+
+normalisers:
+  spatial:
+    method: opm_sample_at_closest_approach
+    divisor: map_max
+  temporal:
+    method: window_coverage_fraction
+  trajectory:
+    method: axis_alignment
+    form: "0.5*track_intersects + 0.5*(1 - |delta_theta|/90)"
+    intersects_buffer_km: 25.0
+  drift:
+    hit_weight: 0.6
+    iou_weight: 0.4
+  behaviour:
+    method: max_of_rules
+
+levels:
+  high: 0.70
+  medium: 0.40
+
+# Open decisions (ARCHITECTURE.md §13) resolved here, not from the source
+# document -- documented in backend/core/m8_fusion.py's module docstring:
+evidence_strength_thresholds:
+  strong_min_factors_above: 4  # of 5 raw factors (S,T,J,D,B) > factor_threshold
+  moderate_min_factors_above: 2
+  factor_threshold: 0.5
+
+sensitivity:
+  sweep_pct: 20
+  steps: 5

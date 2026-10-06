@@ -1,0 +1,19 @@
+# Runtime dependencies only. Windows venv (not conda) -- see
+# backend/core/drift.py's module docstring for why OpenDrift is optional
+# rather than required. Transitive deps (click, rich, shellingham,
+# typing_extensions, annotated-types, pydantic_core, markdown-it-py, mdurl,
+# Pygments, anyio, h11, idna, starlette, watchfiles, websockets, httptools,
+# python-dotenv) are pulled in automatically and are not listed individually.
+numpy==2.5.3
+scipy==1.18.1
+shapely==2.1.2
+pydantic==2.13.5
+typer==0.27.2
+PyYAML==6.0.3
+
+# Added for the API server prompt: explicitly requested by name
+# ("A FastAPI server exposing exactly the endpoints...") rather than an
+# unjustified addition.
+fastapi==0.141.1
+uvicorn[standard]==0.54.0
+python-multipart==0.0.32  # required by FastAPI/Starlette to parse the GeoTIFF upload's multipart form

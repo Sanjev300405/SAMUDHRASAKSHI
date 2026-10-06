@@ -1,0 +1,89 @@
+:root {
+  /* Fonts — offline system stacks only, no network, no self-hosted webfonts.
+     Roles per ARCHITECTURE.md §7.3: editorial / interface / data. */
+  --f-editorial: Georgia, 'Times New Roman', serif;
+  --f-interface: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --f-data: 'Cascadia Mono', Consolas, 'SF Mono', monospace;
+
+  /* Surfaces — cool near-black, never pure #000 (crushes shadows on OLED) */
+  --s-void:      #05080C;
+  --s-deep:      #0A0F16;
+  --s-panel:     #0D131C;
+  --s-raised:    #131A25;
+  --s-line:      #1E2836;
+
+  /* Text */
+  --fg-primary:  #E8EDF4;
+  --fg-secondary:#9AA8BC;
+  --fg-tertiary: #5F6D82;
+  --fg-inverse:  #05080C;
+
+  /* THE accent. Oil amber. Used on <5% of pixels. */
+  --accent:      #F5A524;
+  --accent-dim:  #B8781A;
+  --accent-glow: rgb(245 165 36 / 0.16);
+
+  /* Domain semantics — not traffic lights */
+  --slick:       #F5A524;
+  --origin-hi:   #FF6B4A;
+  --origin-md:   #C7527F;
+  --origin-lo:   #6B4E9E;
+  --track:       #4AC8E0;
+  --track-sel:   #8FF0FF;
+  --sim:         #7DD3A0;
+  --dark-vessel: #8B93A3;
+  --caution:     #E0A0A0;
+
+  /* Layout (§3 / §7.2) */
+  --rail-w:     56px;
+  --dock-w:     380px;
+  --timeline-h: 72px;
+  /* Height of the floating top band (SlickReadout / SourceChips), so
+     MapScene can reserve room for it as a content inset instead of a
+     hardcoded pixel number — single source of truth, like the others above. */
+  --top-band-h: 110px;
+
+  /* Radius by elevation (§7.1 anti-AI checklist) */
+  --r-control: 4px;
+  --r-panel:   10px;
+  --r-modal:   14px;
+
+  /* Type scale (1.250 major third, 4K-safe) */
+  --t-display: 2.986rem;
+  --t-h1:      1.563rem;
+  --t-h2:      1.250rem;
+  --t-body:    0.875rem;
+  --t-label:   0.750rem;
+  --t-micro:   0.688rem;
+  --t-data-lg: 1.953rem;
+  --t-data:    0.875rem;
+
+  /* Motion (§7.8) */
+  --ease:     cubic-bezier(0.22, 0.75, 0.25, 1);
+  --d-fast:   140ms;
+  --d-base:   200ms;
+  --d-slow:   320ms;
+  --d-camera: 900ms;
+}
+
+/* Every numeric element — without this, columns jitter as values update. */
+.num {
+  font-variant-numeric: tabular-nums lining-nums;
+  font-feature-settings: "tnum" 1, "lnum" 1;
+  font-family: var(--f-data);
+}
+
+.label {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+  font-size: var(--t-label);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --d-fast: 1ms;
+    --d-base: 1ms;
+    --d-slow: 1ms;
+  }
+}

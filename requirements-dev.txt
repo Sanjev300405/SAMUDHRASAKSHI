@@ -1,0 +1,5 @@
+# Dev-only addition beyond the approved numpy/scipy/shapely/pydantic/typer/
+# pyyaml set, justified: pytest runs the two explicitly-required unit tests
+# (tests/test_m5.py, tests/test_m8.py). Not needed to run the pipeline itself.
+-r requirements.txt
+pytest==9.1.1

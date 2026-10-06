@@ -1,0 +1,12 @@
+{
+  "case_id": "demo",
+  "seed": 101,
+  "true_mmsi": "465219486",
+  "true_track_id": "trk-true",
+  "release_lon": 63.9,
+  "release_lat": 19.9,
+  "release_time": "2030-06-15T00:30:29.546818+00:00",
+  "observed_at": "2030-06-15T12:00:00+00:00",
+  "observed_area_km2": 7.316734877753767,
+  "n_distractors": 4
+}

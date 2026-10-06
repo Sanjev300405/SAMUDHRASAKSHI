@@ -1,0 +1,845 @@
+{
+  "spill_id": "DWH-2010-MC252",
+  "image_id": "NOAA-NCEI-0163820-2010-04-23-DEMO",
+  "observed_at": "2010-04-23T00:00:00Z",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -88.47,
+          28.7
+        ],
+        [
+          -88.405,
+          28.68
+        ],
+        [
+          -88.345,
+          28.72
+        ],
+        [
+          -88.35,
+          28.775
+        ],
+        [
+          -88.415,
+          28.795
+        ],
+        [
+          -88.465,
+          28.755
+        ],
+        [
+          -88.47,
+          28.7
+        ]
+      ]
+    ]
+  },
+  "sources": {
+    "sar": {
+      "type": "provided",
+      "name": "NOAA OR&R / NCEI Deepwater Horizon NESDIS SAR composite days of oiling (accession 0163820); approximate demo footprint, not an extracted archive polygon",
+      "url": "https://www.ncei.noaa.gov/metadata/granule/geoportal/rest/metadata/item/ORR-DWH-ERMA-GIS.0163820/html"
+    },
+    "ais": {
+      "type": "provided",
+      "name": "SYNTHETIC AIS demo tracks generated only to exercise traffic analysis and counterfactual simulation; not archived observations and not suitable for real vessel attribution",
+      "url": "https://coast.noaa.gov/data/marinecadastre/ais/"
+    },
+    "forcing": {
+      "type": "provided",
+      "name": "Combined user-provided forcing: CMEMS GLORYS12V1 daily mean surface currents (uo/vo) and hourly 10 m wind from winds.json; wind model selection is not recorded in the JSON",
+      "url": "https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_PHY_001_030/description"
+    }
+  },
+  "ais_tracks": [
+    {
+      "track_id": "DEMO-SYNTHETIC-001",
+      "mmsi": null,
+      "vessel_type": "unknown",
+      "fixes": [
+        {
+          "ts": "2010-04-21T00:00:00Z",
+          "lon": -88.355,
+          "lat": 28.758,
+          "sog": 0.7,
+          "cog": 45.0,
+          "heading": 45.0
+        },
+        {
+          "ts": "2010-04-21T08:00:00Z",
+          "lon": -88.35,
+          "lat": 28.761,
+          "sog": 0.7,
+          "cog": 45.0,
+          "heading": 45.0
+        },
+        {
+          "ts": "2010-04-21T16:00:00Z",
+          "lon": -88.345,
+          "lat": 28.764,
+          "sog": 0.7,
+          "cog": 45.0,
+          "heading": 45.0
+        },
+        {
+          "ts": "2010-04-22T00:00:00Z",
+          "lon": -88.34,
+          "lat": 28.766,
+          "sog": 0.7,
+          "cog": 45.0,
+          "heading": 45.0
+        },
+        {
+          "ts": "2010-04-22T08:00:00Z",
+          "lon": -88.335,
+          "lat": 28.768,
+          "sog": 0.7,
+          "cog": 45.0,
+          "heading": 45.0
+        },
+        {
+          "ts": "2010-04-22T16:00:00Z",
+          "lon": -88.33,
+          "lat": 28.77,
+          "sog": 0.7,
+          "cog": 45.0,
+          "heading": 45.0
+        }
+      ]
+    },
+    {
+      "track_id": "DEMO-SYNTHETIC-002",
+      "mmsi": null,
+      "vessel_type": "unknown",
+      "fixes": [
+        {
+          "ts": "2010-04-21T00:00:00Z",
+          "lon": -88.31,
+          "lat": 28.78,
+          "sog": 0.7,
+          "cog": 225.0,
+          "heading": 225.0
+        },
+        {
+          "ts": "2010-04-21T08:00:00Z",
+          "lon": -88.315,
+          "lat": 28.777,
+          "sog": 0.7,
+          "cog": 225.0,
+          "heading": 225.0
+        },
+        {
+          "ts": "2010-04-21T16:00:00Z",
+          "lon": -88.32,
+          "lat": 28.774,
+          "sog": 0.7,
+          "cog": 225.0,
+          "heading": 225.0
+        },
+        {
+          "ts": "2010-04-22T00:00:00Z",
+          "lon": -88.325,
+          "lat": 28.771,
+          "sog": 0.7,
+          "cog": 225.0,
+          "heading": 225.0
+        },
+        {
+          "ts": "2010-04-22T08:00:00Z",
+          "lon": -88.33,
+          "lat": 28.768,
+          "sog": 0.7,
+          "cog": 225.0,
+          "heading": 225.0
+        },
+        {
+          "ts": "2010-04-22T16:00:00Z",
+          "lon": -88.335,
+          "lat": 28.765,
+          "sog": 0.7,
+          "cog": 225.0,
+          "heading": 225.0
+        }
+      ]
+    }
+  ],
+  "forcing_samples": [
+    {
+      "ts": "2010-04-21T00:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": 0.70309,
+      "wind_v": 0.098813
+    },
+    {
+      "ts": "2010-04-21T01:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": 0.298722,
+      "wind_v": -0.497157
+    },
+    {
+      "ts": "2010-04-21T02:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": 0.295054,
+      "wind_v": -1.101155
+    },
+    {
+      "ts": "2010-04-21T03:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": -0.19085,
+      "wind_v": -1.20498
+    },
+    {
+      "ts": "2010-04-21T04:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": -0.296956,
+      "wind_v": -0.699584
+    },
+    {
+      "ts": "2010-04-21T05:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": 0.0,
+      "wind_v": -0.4
+    },
+    {
+      "ts": "2010-04-21T06:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": 0.505495,
+      "wind_v": -0.695755
+    },
+    {
+      "ts": "2010-04-21T07:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": 0.805238,
+      "wind_v": -1.193814
+    },
+    {
+      "ts": "2010-04-21T08:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": 1.001547,
+      "wind_v": -1.602811
+    },
+    {
+      "ts": "2010-04-21T09:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": 0.998708,
+      "wind_v": -1.801717
+    },
+    {
+      "ts": "2010-04-21T10:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": 0.689093,
+      "wind_v": -2.403154
+    },
+    {
+      "ts": "2010-04-21T11:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": 0.111678,
+      "wind_v": -3.198051
+    },
+    {
+      "ts": "2010-04-21T12:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": -0.89753,
+      "wind_v": -3.599797
+    },
+    {
+      "ts": "2010-04-21T13:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": -1.682021,
+      "wind_v": -3.607105
+    },
+    {
+      "ts": "2010-04-21T14:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": -1.988047,
+      "wind_v": -3.308666
+    },
+    {
+      "ts": "2010-04-21T15:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": -2.420858,
+      "wind_v": -2.784878
+    },
+    {
+      "ts": "2010-04-21T16:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": -2.497305,
+      "wind_v": -2.095488
+    },
+    {
+      "ts": "2010-04-21T17:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": -2.407551,
+      "wind_v": -1.39
+    },
+    {
+      "ts": "2010-04-21T18:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": -2.100556,
+      "wind_v": -0.806328
+    },
+    {
+      "ts": "2010-04-21T19:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": -1.705148,
+      "wind_v": -0.393664
+    },
+    {
+      "ts": "2010-04-21T20:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": -1.095814,
+      "wind_v": -0.095871
+    },
+    {
+      "ts": "2010-04-21T21:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": -0.397821,
+      "wind_v": 0.099188
+    },
+    {
+      "ts": "2010-04-21T22:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": -0.099188,
+      "wind_v": 0.397821
+    },
+    {
+      "ts": "2010-04-21T23:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.093997,
+      "current_v": -0.194708,
+      "wind_u": 0.099878,
+      "wind_v": 0.196021
+    },
+    {
+      "ts": "2010-04-22T00:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": -0.0,
+      "wind_v": 0.1
+    },
+    {
+      "ts": "2010-04-22T01:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": -0.0,
+      "wind_v": 0.3
+    },
+    {
+      "ts": "2010-04-22T02:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": 0.299983,
+      "wind_v": 1.203167
+    },
+    {
+      "ts": "2010-04-22T03:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": 0.805404,
+      "wind_v": 1.993445
+    },
+    {
+      "ts": "2010-04-22T04:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": 1.279897,
+      "wind_v": 2.308996
+    },
+    {
+      "ts": "2010-04-22T05:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": 1.617578,
+      "wind_v": 2.490852
+    },
+    {
+      "ts": "2010-04-22T06:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": 1.909132,
+      "wind_v": 2.196205
+    },
+    {
+      "ts": "2010-04-22T07:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": 1.803122,
+      "wind_v": 1.803122
+    },
+    {
+      "ts": "2010-04-22T08:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": 1.494325,
+      "wind_v": 1.298997
+    },
+    {
+      "ts": "2010-04-22T09:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": 0.994747,
+      "wind_v": 0.80553
+    },
+    {
+      "ts": "2010-04-22T10:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": 0.599166,
+      "wind_v": 0.194681
+    },
+    {
+      "ts": "2010-04-22T11:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": 0.19799,
+      "wind_v": -0.19799
+    },
+    {
+      "ts": "2010-04-22T12:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": -0.905015,
+      "wind_v": 0.095121
+    },
+    {
+      "ts": "2010-04-22T13:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": -1.797559,
+      "wind_v": 0.515442
+    },
+    {
+      "ts": "2010-04-22T14:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": -2.707377,
+      "wind_v": 1.093851
+    },
+    {
+      "ts": "2010-04-22T15:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": -3.490082,
+      "wind_v": 2.015
+    },
+    {
+      "ts": "2010-04-22T16:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": -3.699215,
+      "wind_v": 2.995565
+    },
+    {
+      "ts": "2010-04-22T17:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": -2.92524,
+      "wind_v": 4.177675
+    },
+    {
+      "ts": "2010-04-22T18:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": -2.094694,
+      "wind_v": 4.704759
+    },
+    {
+      "ts": "2010-04-22T19:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": -1.590502,
+      "wind_v": 5.202298
+    },
+    {
+      "ts": "2010-04-22T20:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": -1.178744,
+      "wind_v": 5.105699
+    },
+    {
+      "ts": "2010-04-22T21:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": -1.816842,
+      "wind_v": 4.496842
+    },
+    {
+      "ts": "2010-04-22T22:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": -2.385263,
+      "wind_v": 4.303129
+    },
+    {
+      "ts": "2010-04-22T23:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.079958,
+      "current_v": -0.129398,
+      "wind_u": -3.599174,
+      "wind_v": 3.599174
+    },
+    {
+      "ts": "2010-04-23T00:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -4.604301,
+      "wind_v": 2.990068
+    },
+    {
+      "ts": "2010-04-23T01:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -4.928712,
+      "wind_v": 2.961469
+    },
+    {
+      "ts": "2010-04-23T02:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -5.51885,
+      "wind_v": 3.059149
+    },
+    {
+      "ts": "2010-04-23T03:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -5.691591,
+      "wind_v": 3.419853
+    },
+    {
+      "ts": "2010-04-23T04:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -5.585546,
+      "wind_v": 3.627296
+    },
+    {
+      "ts": "2010-04-23T05:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -5.612584,
+      "wind_v": 3.785736
+    },
+    {
+      "ts": "2010-04-23T06:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -5.563356,
+      "wind_v": 4.34657
+    },
+    {
+      "ts": "2010-04-23T07:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -4.999245,
+      "wind_v": 4.999245
+    },
+    {
+      "ts": "2010-04-23T08:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -5.025412,
+      "wind_v": 5.781075
+    },
+    {
+      "ts": "2010-04-23T09:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -4.745076,
+      "wind_v": 5.859681
+    },
+    {
+      "ts": "2010-04-23T10:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -4.212705,
+      "wind_v": 5.590449
+    },
+    {
+      "ts": "2010-04-23T11:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -3.943187,
+      "wind_v": 6.071975
+    },
+    {
+      "ts": "2010-04-23T12:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -3.899615,
+      "wind_v": 6.004881
+    },
+    {
+      "ts": "2010-04-23T13:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -4.373122,
+      "wind_v": 6.019086
+    },
+    {
+      "ts": "2010-04-23T14:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -4.465467,
+      "wind_v": 5.925875
+    },
+    {
+      "ts": "2010-04-23T15:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -4.16456,
+      "wind_v": 5.526558
+    },
+    {
+      "ts": "2010-04-23T16:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -5.155157,
+      "wind_v": 6.143676
+    },
+    {
+      "ts": "2010-04-23T17:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -5.791516,
+      "wind_v": 6.90206
+    },
+    {
+      "ts": "2010-04-23T18:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -6.045796,
+      "wind_v": 7.738266
+    },
+    {
+      "ts": "2010-04-23T19:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -5.523541,
+      "wind_v": 7.888434
+    },
+    {
+      "ts": "2010-04-23T20:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -5.152285,
+      "wind_v": 7.933824
+    },
+    {
+      "ts": "2010-04-23T21:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -4.86,
+      "wind_v": 8.417767
+    },
+    {
+      "ts": "2010-04-23T22:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -2.697718,
+      "wind_v": 8.302723
+    },
+    {
+      "ts": "2010-04-23T23:00Z",
+      "lon": -88.49999237060547,
+      "lat": 28.75,
+      "current_u": -0.005493,
+      "current_v": 0.034791,
+      "wind_u": -2.292194,
+      "wind_v": 7.497429
+    }
+  ],
+  "_metadata": {
+    "fixture_kind": "mixed_provenance_demo",
+    "coordinate_reference_system": "WGS84 / EPSG:4326",
+    "geometry_note": "Illustrative polygon centered near the approximate incident coordinates reported by NOAA; not a digitization of the archived SAR footprint.",
+    "time_note": "NOAA accession 0163820 covers SAR oiling composites from 2010-04-23 to 2010-08-11. This sample uses 2010-04-23, the first archive date. Exact scene acquisition time was not verified; 00:00Z is an assigned date-only placeholder.",
+    "ais_note": "All AIS vessel IDs, positions, times, speeds, courses, and headings are synthetic and must not be used as evidence of vessel presence or attribution.",
+    "forcing_note": "Current_u/current_v are extracted from the uploaded CMEMS GLORYS12V1 daily mean surface NetCDF at the nearest grid cell (0.494 m, lon/lat -88.5/28.75); each daily mean is repeated across that day\u2019s hourly samples (piecewise constant, no sub-daily current interpolation). Wind_u/wind_v are converted from the uploaded hourly 10 m wind speed/direction using meteorological direction-from convention. winds.json does not embed its selected model; verify it was downloaded with models=era5 before claiming ERA5 provenance. These are model/reanalysis values, not in-situ measurements.",
+    "additional_forcing_source": {
+      "name": "Copernicus ERA5 hourly single-level reanalysis (10 m wind components)",
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels"
+    },
+    "event_source": "https://incidentnews.noaa.gov/incident/8220",
+    "forcing_current_source": "https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_PHY_001_030/description",
+    "forcing_wind_source": "https://open-meteo.com/en/docs/historical-weather-api",
+    "forcing_wind_request": "https://archive-api.open-meteo.com/v1/archive?latitude=28.735&longitude=-88.43&start_date=2010-04-21&end_date=2010-04-23&hourly=wind_speed_10m%2Cwind_direction_10m&wind_speed_unit=ms&timezone=GMT&cell_selection=sea&models=era5",
+    "forcing_grid_location": {
+      "longitude": -88.49999237060547,
+      "latitude": 28.75,
+      "depth_m": 0.494025
+    },
+    "forcing_sample_count": 72,
+    "demo_only": true,
+    "ais_notice": "AIS tracks in this file are synthetic demonstration trajectories. They are not historical AIS, and all candidate rankings or simulated associations are software demonstrations only. Replace them with archived AIS before making historical attribution claims.",
+    "track_design": "Two six-fix synthetic trajectories span the hindcast release window so the dashboard can exercise Analyse Traffic and Run Simulation.",
+    "other_data_notice": "The replay retains the supplied historical forcing package and approximate SAR footprint. Wind model provenance and exact SAR footprint remain as described in the source metadata."
+  }
+}

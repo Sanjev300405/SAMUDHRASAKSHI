@@ -1,0 +1,2934 @@
+{
+  "summary": {
+    "n_cases": 100,
+    "n_cases_with_candidates": 100,
+    "top1_hit_rate": 0.37,
+    "top3_hit_rate": 0.79,
+    "ablation": {
+      "proximity_only_top1": 0.6,
+      "full_fusion_top1": 0.37,
+      "fusion_without_drift_top1": 0.32
+    },
+    "origin_recovery_error_km_mean": 7.161,
+    "origin_recovery_error_km_median": 6.594,
+    "true_release_in_high_prob_region_pct": 0.04,
+    "latency_s_mean": 3.52,
+    "total_wall_time_s": 359.6
+  },
+  "per_case": [
+    {
+      "seed": 7,
+      "true_mmsi": "207824501",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 7.823,
+      "true_in_high_prob": false,
+      "latency_s": 2.8115525245666504,
+      "n_candidates": 2,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 8,
+      "true_mmsi": "423221006",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 3.284,
+      "true_in_high_prob": true,
+      "latency_s": 3.8513832092285156,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 9,
+      "true_mmsi": "239908527",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 8.538,
+      "true_in_high_prob": false,
+      "latency_s": 5.930016756057739,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-03",
+        "trk-dist-01"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 10,
+      "true_mmsi": "282542783",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 6.146,
+      "true_in_high_prob": false,
+      "latency_s": 6.830327987670898,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 11,
+      "true_mmsi": "367318959",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 10.913,
+      "true_in_high_prob": false,
+      "latency_s": 7.440770864486694,
+      "n_candidates": 5,
+      "ranking_full": [
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-dist-00",
+        "trk-dist-03",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-02",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-dist-00",
+        "trk-dist-03",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 12,
+      "true_mmsi": "751039310",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 5.094,
+      "true_in_high_prob": false,
+      "latency_s": 2.1576015949249268,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 13,
+      "true_mmsi": "780430590",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 7.265,
+      "true_in_high_prob": false,
+      "latency_s": 8.190774202346802,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-03",
+        "trk-dist-02"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-03",
+        "trk-dist-02"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 14,
+      "true_mmsi": "709003972",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 9.537,
+      "true_in_high_prob": false,
+      "latency_s": 6.727696418762207,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "ranking_proximity": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 15,
+      "true_mmsi": "501455473",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 1.19,
+      "true_in_high_prob": false,
+      "latency_s": 5.53710150718689,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-02"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-02"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 16,
+      "true_mmsi": "262917828",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 4.487,
+      "true_in_high_prob": false,
+      "latency_s": 2.571819543838501,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 17,
+      "true_mmsi": "662806290",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 4.368,
+      "true_in_high_prob": false,
+      "latency_s": 3.3232409954071045,
+      "n_candidates": 2,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-02"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-02"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 18,
+      "true_mmsi": "651124414",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 6.202,
+      "true_in_high_prob": false,
+      "latency_s": 2.964986562728882,
+      "n_candidates": 2,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 19,
+      "true_mmsi": "432342093",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 3.334,
+      "true_in_high_prob": false,
+      "latency_s": 6.442037343978882,
+      "n_candidates": 5,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-02",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 20,
+      "true_mmsi": "700697462",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 4.196,
+      "true_in_high_prob": false,
+      "latency_s": 2.7179951667785645,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-01",
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-02"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-01",
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-02"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 21,
+      "true_mmsi": "798102881",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 10.93,
+      "true_in_high_prob": false,
+      "latency_s": 3.972694158554077,
+      "n_candidates": 2,
+      "ranking_full": [
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 22,
+      "true_mmsi": "577591786",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 0.854,
+      "true_in_high_prob": false,
+      "latency_s": 1.5948593616485596,
+      "n_candidates": 2,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 23,
+      "true_mmsi": "655139982",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 1.652,
+      "true_in_high_prob": false,
+      "latency_s": 2.025543451309204,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-02",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 24,
+      "true_mmsi": "233842584",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 12.994,
+      "true_in_high_prob": false,
+      "latency_s": 6.985150337219238,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-02"
+      ],
+      "ranking_proximity": [
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-02"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 25,
+      "true_mmsi": "728481745",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 7.886,
+      "true_in_high_prob": false,
+      "latency_s": 4.844977378845215,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 26,
+      "true_mmsi": "789119430",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 1.742,
+      "true_in_high_prob": false,
+      "latency_s": 2.307285785675049,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-03",
+        "trk-dist-02"
+      ],
+      "ranking_proximity": [
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-02",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-03",
+        "trk-dist-02"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 27,
+      "true_mmsi": "670577188",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 5.896,
+      "true_in_high_prob": false,
+      "latency_s": 2.565459966659546,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 28,
+      "true_mmsi": "458017566",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 9.327,
+      "true_in_high_prob": false,
+      "latency_s": 5.551041841506958,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 29,
+      "true_mmsi": "640676056",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 6.66,
+      "true_in_high_prob": false,
+      "latency_s": 2.102480173110962,
+      "n_candidates": 1,
+      "ranking_full": [
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-true"
+      ],
+      "ranking_no_drift": [
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 30,
+      "true_mmsi": "778277013",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 2.628,
+      "true_in_high_prob": false,
+      "latency_s": 2.0931403636932373,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 31,
+      "true_mmsi": "723429088",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 13.378,
+      "true_in_high_prob": false,
+      "latency_s": 7.451615810394287,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 32,
+      "true_mmsi": "603719907",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 9.891,
+      "true_in_high_prob": false,
+      "latency_s": 4.24550724029541,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-02"
+      ],
+      "ranking_proximity": [
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-02"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 33,
+      "true_mmsi": "785939094",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 11.883,
+      "true_in_high_prob": false,
+      "latency_s": 7.616826295852661,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-03",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-01",
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 34,
+      "true_mmsi": "299314157",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 5.036,
+      "true_in_high_prob": false,
+      "latency_s": 6.186253309249878,
+      "n_candidates": 5,
+      "ranking_full": [
+        "trk-dist-02",
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-02",
+        "trk-dist-03",
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-02",
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 35,
+      "true_mmsi": "336747780",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 7.281,
+      "true_in_high_prob": false,
+      "latency_s": 4.186161279678345,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 36,
+      "true_mmsi": "662231463",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 11.417,
+      "true_in_high_prob": false,
+      "latency_s": 4.510643005371094,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-01",
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-01",
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 37,
+      "true_mmsi": "639178751",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 2.942,
+      "true_in_high_prob": false,
+      "latency_s": 1.8891456127166748,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-02",
+        "trk-dist-03",
+        "trk-dist-01"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-02",
+        "trk-dist-03",
+        "trk-dist-01"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 38,
+      "true_mmsi": "235666107",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 9.466,
+      "true_in_high_prob": false,
+      "latency_s": 4.77795672416687,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-03",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 39,
+      "true_mmsi": "355727453",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 4.334,
+      "true_in_high_prob": false,
+      "latency_s": 2.2494049072265625,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 40,
+      "true_mmsi": "712769419",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 21.823,
+      "true_in_high_prob": false,
+      "latency_s": 3.0688343048095703,
+      "n_candidates": 2,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 41,
+      "true_mmsi": "295999015",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 3.529,
+      "true_in_high_prob": false,
+      "latency_s": 1.5717060565948486,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "ranking_proximity": [
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 42,
+      "true_mmsi": "247317862",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 8.665,
+      "true_in_high_prob": false,
+      "latency_s": 1.5010852813720703,
+      "n_candidates": 1,
+      "ranking_full": [
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-true"
+      ],
+      "ranking_no_drift": [
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 43,
+      "true_mmsi": "516814839",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 1.792,
+      "true_in_high_prob": false,
+      "latency_s": 1.552138328552246,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 44,
+      "true_mmsi": "631156432",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 6.738,
+      "true_in_high_prob": false,
+      "latency_s": 1.948836326599121,
+      "n_candidates": 2,
+      "ranking_full": [
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 45,
+      "true_mmsi": "676775158",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 15.543,
+      "true_in_high_prob": false,
+      "latency_s": 2.3810129165649414,
+      "n_candidates": 2,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-03",
+        "trk-true"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 46,
+      "true_mmsi": "418938627",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 4.005,
+      "true_in_high_prob": false,
+      "latency_s": 3.3749780654907227,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-02"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-03",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-02"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 47,
+      "true_mmsi": "279076008",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 3.076,
+      "true_in_high_prob": false,
+      "latency_s": 2.8589529991149902,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 48,
+      "true_mmsi": "761683563",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 4.336,
+      "true_in_high_prob": false,
+      "latency_s": 4.082548141479492,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-01",
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-01",
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 49,
+      "true_mmsi": "245188833",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 1.54,
+      "true_in_high_prob": true,
+      "latency_s": 2.763396978378296,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-02",
+        "trk-dist-03"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-02",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-02",
+        "trk-dist-03"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 50,
+      "true_mmsi": "233187524",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 3.093,
+      "true_in_high_prob": false,
+      "latency_s": 4.122872829437256,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-02",
+        "trk-dist-03",
+        "trk-dist-01"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-02",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-03",
+        "trk-dist-01"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 51,
+      "true_mmsi": "433399103",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 13.625,
+      "true_in_high_prob": false,
+      "latency_s": 3.266923427581787,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 52,
+      "true_mmsi": "765205178",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 8.21,
+      "true_in_high_prob": false,
+      "latency_s": 2.969658136367798,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 53,
+      "true_mmsi": "241376050",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 5.022,
+      "true_in_high_prob": false,
+      "latency_s": 3.439143419265747,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-02",
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-02",
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 54,
+      "true_mmsi": "597394194",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 0.232,
+      "true_in_high_prob": true,
+      "latency_s": 1.6450846195220947,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-03",
+        "trk-dist-01",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-03",
+        "trk-dist-01",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 55,
+      "true_mmsi": "751048273",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 9.811,
+      "true_in_high_prob": false,
+      "latency_s": 2.4968695640563965,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 56,
+      "true_mmsi": "353184667",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 10.82,
+      "true_in_high_prob": false,
+      "latency_s": 4.638354539871216,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-03",
+        "trk-dist-01"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-03",
+        "trk-dist-01"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 57,
+      "true_mmsi": "413318093",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 7.22,
+      "true_in_high_prob": false,
+      "latency_s": 4.677778244018555,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01"
+      ],
+      "ranking_proximity": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 58,
+      "true_mmsi": "411364643",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 9.317,
+      "true_in_high_prob": false,
+      "latency_s": 3.2552363872528076,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "ranking_proximity": [
+        "trk-dist-01",
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-03",
+        "trk-dist-02"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 59,
+      "true_mmsi": "505280609",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 0.979,
+      "true_in_high_prob": false,
+      "latency_s": 1.3291966915130615,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 60,
+      "true_mmsi": "694297860",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 2.687,
+      "true_in_high_prob": false,
+      "latency_s": 1.08066725730896,
+      "n_candidates": 2,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 61,
+      "true_mmsi": "711210200",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 12.496,
+      "true_in_high_prob": false,
+      "latency_s": 4.471787452697754,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-dist-03",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-01",
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-dist-03",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 62,
+      "true_mmsi": "675560999",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 9.086,
+      "true_in_high_prob": false,
+      "latency_s": 4.9051055908203125,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-00",
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-02",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-00",
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 63,
+      "true_mmsi": "305606744",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 12.679,
+      "true_in_high_prob": false,
+      "latency_s": 1.7969470024108887,
+      "n_candidates": 2,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 64,
+      "true_mmsi": "233691738",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 3.465,
+      "true_in_high_prob": false,
+      "latency_s": 1.6522729396820068,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-01",
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-01",
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 65,
+      "true_mmsi": "557538982",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 1.868,
+      "true_in_high_prob": false,
+      "latency_s": 2.0202081203460693,
+      "n_candidates": 2,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 66,
+      "true_mmsi": "591157292",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 2.779,
+      "true_in_high_prob": false,
+      "latency_s": 1.3949484825134277,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-02"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-02"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 67,
+      "true_mmsi": "495856599",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 9.501,
+      "true_in_high_prob": false,
+      "latency_s": 2.4866786003112793,
+      "n_candidates": 2,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 68,
+      "true_mmsi": "398072246",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 7.944,
+      "true_in_high_prob": false,
+      "latency_s": 3.2998623847961426,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-02",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-02",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 69,
+      "true_mmsi": "236256541",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 3.889,
+      "true_in_high_prob": false,
+      "latency_s": 5.699140310287476,
+      "n_candidates": 5,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 70,
+      "true_mmsi": "600710645",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 3.648,
+      "true_in_high_prob": false,
+      "latency_s": 4.232234239578247,
+      "n_candidates": 5,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-03",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-02",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-03",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 71,
+      "true_mmsi": "616392598",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 10.561,
+      "true_in_high_prob": false,
+      "latency_s": 4.560046195983887,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 72,
+      "true_mmsi": "246687595",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 3.892,
+      "true_in_high_prob": false,
+      "latency_s": 1.668966293334961,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-03",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-03",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 73,
+      "true_mmsi": "480082468",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 5.684,
+      "true_in_high_prob": false,
+      "latency_s": 2.5456161499023438,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 74,
+      "true_mmsi": "372909189",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 9.629,
+      "true_in_high_prob": false,
+      "latency_s": 3.3823835849761963,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 75,
+      "true_mmsi": "730188935",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 13.848,
+      "true_in_high_prob": false,
+      "latency_s": 3.3356826305389404,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 76,
+      "true_mmsi": "683448392",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 14.64,
+      "true_in_high_prob": false,
+      "latency_s": 4.52032470703125,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-02",
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-02",
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-02",
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 77,
+      "true_mmsi": "757494978",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 12.293,
+      "true_in_high_prob": false,
+      "latency_s": 3.2994744777679443,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-02"
+      ],
+      "ranking_proximity": [
+        "trk-dist-00",
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-02"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 78,
+      "true_mmsi": "622598003",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 3.705,
+      "true_in_high_prob": false,
+      "latency_s": 3.021868944168091,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-00"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 79,
+      "true_mmsi": "327697675",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 9.902,
+      "true_in_high_prob": false,
+      "latency_s": 4.863174915313721,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-00",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 80,
+      "true_mmsi": "491574331",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 3.019,
+      "true_in_high_prob": false,
+      "latency_s": 1.3215830326080322,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 81,
+      "true_mmsi": "419523755",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 6.745,
+      "true_in_high_prob": false,
+      "latency_s": 4.268298149108887,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 82,
+      "true_mmsi": "536833165",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 8.984,
+      "true_in_high_prob": false,
+      "latency_s": 3.8546698093414307,
+      "n_candidates": 5,
+      "ranking_full": [
+        "trk-dist-02",
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-02",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-02",
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 83,
+      "true_mmsi": "452811505",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 11.385,
+      "true_in_high_prob": false,
+      "latency_s": 3.27475643157959,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-02",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 84,
+      "true_mmsi": "696140524",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 3.597,
+      "true_in_high_prob": false,
+      "latency_s": 4.494678020477295,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01"
+      ],
+      "ranking_proximity": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 85,
+      "true_mmsi": "703934224",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 1.305,
+      "true_in_high_prob": false,
+      "latency_s": 2.169480800628662,
+      "n_candidates": 2,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 86,
+      "true_mmsi": "320652509",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 9.432,
+      "true_in_high_prob": false,
+      "latency_s": 4.429240465164185,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-00",
+        "trk-dist-03",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-00",
+        "trk-dist-03",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 87,
+      "true_mmsi": "325553084",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 2.661,
+      "true_in_high_prob": false,
+      "latency_s": 1.723250150680542,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 88,
+      "true_mmsi": "763403085",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 12.047,
+      "true_in_high_prob": false,
+      "latency_s": 3.518425226211548,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-03",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 89,
+      "true_mmsi": "471674963",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 4.126,
+      "true_in_high_prob": false,
+      "latency_s": 3.4070279598236084,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-00",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 90,
+      "true_mmsi": "255002359",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 15.946,
+      "true_in_high_prob": false,
+      "latency_s": 4.103710412979126,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-dist-00",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 91,
+      "true_mmsi": "253345555",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 11.523,
+      "true_in_high_prob": false,
+      "latency_s": 1.5523920059204102,
+      "n_candidates": 1,
+      "ranking_full": [
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-true"
+      ],
+      "ranking_no_drift": [
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 92,
+      "true_mmsi": "629672633",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 5.744,
+      "true_in_high_prob": false,
+      "latency_s": 2.768197536468506,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-03"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-03"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 93,
+      "true_mmsi": "586883410",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 6.528,
+      "true_in_high_prob": false,
+      "latency_s": 1.3085641860961914,
+      "n_candidates": 1,
+      "ranking_full": [
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-true"
+      ],
+      "ranking_no_drift": [
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 94,
+      "true_mmsi": "294108478",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 8.113,
+      "true_in_high_prob": false,
+      "latency_s": 4.575479745864868,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-01",
+        "trk-dist-00",
+        "trk-dist-03",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-01",
+        "trk-dist-00",
+        "trk-dist-03",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 95,
+      "true_mmsi": "252083035",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 3.799,
+      "true_in_high_prob": false,
+      "latency_s": 4.015195608139038,
+      "n_candidates": 5,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-02",
+        "trk-dist-00",
+        "trk-dist-01"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 96,
+      "true_mmsi": "237827391",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 14.198,
+      "true_in_high_prob": false,
+      "latency_s": 5.082993030548096,
+      "n_candidates": 5,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-02",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-02",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 97,
+      "true_mmsi": "302105067",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 5.253,
+      "true_in_high_prob": false,
+      "latency_s": 4.177788019180298,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-02",
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-02",
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 98,
+      "true_mmsi": "287943586",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 3.8,
+      "true_in_high_prob": false,
+      "latency_s": 1.3889195919036865,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-02",
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 99,
+      "true_mmsi": "220014236",
+      "top1_hit": false,
+      "top3_hit": false,
+      "origin_error_km": 15.049,
+      "true_in_high_prob": false,
+      "latency_s": 4.074288368225098,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-00"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 100,
+      "true_mmsi": "745173531",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 5.29,
+      "true_in_high_prob": true,
+      "latency_s": 1.1495141983032227,
+      "n_candidates": 1,
+      "ranking_full": [
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-true"
+      ],
+      "ranking_no_drift": [
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 101,
+      "true_mmsi": "564450129",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 3.498,
+      "true_in_high_prob": false,
+      "latency_s": 4.605951309204102,
+      "n_candidates": 4,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-02",
+        "trk-dist-01"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-02",
+        "trk-dist-01"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 102,
+      "true_mmsi": "590908409",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 5.464,
+      "true_in_high_prob": false,
+      "latency_s": 6.58869743347168,
+      "n_candidates": 5,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-00",
+        "trk-dist-02"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-03",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-01",
+        "trk-true",
+        "trk-dist-03",
+        "trk-dist-00",
+        "trk-dist-02"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 103,
+      "true_mmsi": "486699253",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 12.306,
+      "true_in_high_prob": false,
+      "latency_s": 2.3889760971069336,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-01",
+        "trk-dist-03",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-dist-03",
+        "trk-true",
+        "trk-dist-01"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-01",
+        "trk-dist-03",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": false,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 104,
+      "true_mmsi": "274264728",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 9.911,
+      "true_in_high_prob": false,
+      "latency_s": 2.4725592136383057,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-01",
+        "trk-dist-02"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-01",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    },
+    {
+      "seed": 105,
+      "true_mmsi": "254817265",
+      "top1_hit": true,
+      "top3_hit": true,
+      "origin_error_km": 2.49,
+      "true_in_high_prob": false,
+      "latency_s": 1.3888795375823975,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-true",
+        "trk-dist-03",
+        "trk-dist-00"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-00",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-true",
+        "trk-dist-03",
+        "trk-dist-00"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": true
+    },
+    {
+      "seed": 106,
+      "true_mmsi": "202503998",
+      "top1_hit": false,
+      "top3_hit": true,
+      "origin_error_km": 11.719,
+      "true_in_high_prob": false,
+      "latency_s": 2.329414129257202,
+      "n_candidates": 3,
+      "ranking_full": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "ranking_proximity": [
+        "trk-true",
+        "trk-dist-02",
+        "trk-dist-03"
+      ],
+      "ranking_no_drift": [
+        "trk-dist-03",
+        "trk-dist-02",
+        "trk-true"
+      ],
+      "true_track_present": true,
+      "top1_hit_proximity": true,
+      "top1_hit_no_drift": false
+    }
+  ]
+}

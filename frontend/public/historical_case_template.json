@@ -1,0 +1,29 @@
+{
+  "spill_id": "replace-with-archive-case-id",
+  "image_id": "replace-with-satellite-scene-id-or-geometry-source",
+  "observed_at": "2010-04-21T12:00:00Z",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[[ -88.6, 28.5 ], [ -88.3, 28.5 ], [ -88.3, 28.8 ], [ -88.6, 28.8 ], [ -88.6, 28.5 ]]]
+  },
+  "sources": {
+    "sar": { "type": "provided", "name": "Archive / scene citation", "url": "https://example.org/replace-with-source" },
+    "ais": { "type": "real", "name": "Authorized historical AIS archive", "url": "https://example.org/replace-with-source" },
+    "forcing": { "type": "real", "name": "Historical ocean/wind reanalysis", "url": "https://example.org/replace-with-source" }
+  },
+  "ais_tracks": [
+    {
+      "track_id": "replace-with-track-id",
+      "mmsi": "replace-with-mmsi-or-null",
+      "vessel_type": "unknown",
+      "fixes": [
+        { "ts": "2010-04-20T12:00:00Z", "lon": -88.45, "lat": 28.60, "sog": 8.2, "cog": 92, "heading": 92 },
+        { "ts": "2010-04-21T00:00:00Z", "lon": -88.39, "lat": 28.62, "sog": 7.9, "cog": 90, "heading": 90 }
+      ]
+    }
+  ],
+  "forcing_samples": [
+    { "ts": "2010-04-20T12:00:00Z", "lon": -88.45, "lat": 28.60, "current_u": 0.1, "current_v": 0.0, "wind_u": 2.0, "wind_v": 1.0 },
+    { "ts": "2010-04-21T12:00:00Z", "lon": -88.45, "lat": 28.60, "current_u": 0.1, "current_v": 0.0, "wind_u": 2.0, "wind_v": 1.0 }
+  ]
+}
